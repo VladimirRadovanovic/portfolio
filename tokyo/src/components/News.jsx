@@ -35,8 +35,27 @@ const News = () => {
           </div>
         </div>
         {/* END TITLE */}
+        <div className="skills-container">
+        <i className="devicon-javascript-plain"></i>
+        <i className="devicon-react-original-wordmark"></i>
+        <i className="devicon-redux-original"></i>
+        <i className="devicon-python-plain-wordmark"></i>
+        <i className="devicon-html5-plain-wordmark"></i>
+        <i className="devicon-css3-plain-wordmark"></i>
+        <i className="devicon-sequelize-plain-wordmark"></i>
+        <i className="devicon-express-original"></i>
+        <i className="devicon-sqlalchemy-plain"></i>
+        <i className="devicon-postgresql-plain-wordmark"></i>
+        <i className="devicon-flask-original-wordmark"></i>
+        <i className="devicon-docker-plain-wordmark"></i>
+        <i className="devicon-amazonwebservices-plain-wordmark"></i>
+        <i className="devicon-nodejs-plain-wordmark"></i>
+        <i className="devicon-heroku-plain-wordmark"></i>
+        <i className="devicon-npm-original-wordmark"></i>
 
-        <ul>
+        </div>
+
+        {/* <ul> */}
           {/* <li data-aos="fade-right" data-aos-duration="1200">
             <div className="list_inner">
               <div className="image" onClick={toggleModalOne}>
@@ -647,7 +666,7 @@ const News = () => {
             {/* </div> */}
             {/* END LIST INNER */}
           {/* </li> */}
-        </ul>
+        {/* </ul> */}
       </div>
     </>
   );

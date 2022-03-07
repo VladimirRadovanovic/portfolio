@@ -17,15 +17,15 @@ const About = () => {
   return (
     <>
       <div className="tokyo_tm_about">
-        <div className="about_image ">
+        {/* <div className="about_image ">
           <img src="assets/img/slider/1.jpg" alt="about" />
-        </div>
+        </div> */}
         {/* <div className="o-video">
           <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
         </div> */}
         {/* END ABOUT IMAGE */}
         <div className="description">
-          <h3 className="name">Vladimir Radovanovic &amp; Software Engineer</h3>
+          <h3 className="name">Vladimir Radovanovic Software Engineer</h3>
           <div className="description_inner">
             <div className="left">
               <p>

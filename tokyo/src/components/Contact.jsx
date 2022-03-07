@@ -15,10 +15,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_vm500zo",
+        "template_k923zyi",
         e.target,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "3KbfXSj_aTMxKILzi"
       )
       .then((res) => {
         console.log(res);
