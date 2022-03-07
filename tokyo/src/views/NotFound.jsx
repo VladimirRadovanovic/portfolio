@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import logo from '../assets/logo.svg'
 
 const NotFound = () => {
   return (
@@ -7,9 +8,9 @@ const NotFound = () => {
       <div className="leftpart">
         <div className="leftpart_inner">
           <div className="logo">
-            <Link className="navbar-brand" to="/">
-              <img src="/assets/img/logo/dark.png" alt="brand" />
-            </Link>
+            {/* <Link className="navbar-brand" to="/">
+              <img src={logo} alt="brand" />
+            </Link> */}
           </div>
           {/* END LOGO */}
           <div className="copyright">

@@ -6,6 +6,7 @@ import About from "../../components/About";
 import Portfolio from "../../components/PortfolioCreative";
 import News from "../../components/News";
 import Contact from "../../components/Contact";
+// import logo from '../../assets/logo.svg'
 
 const HomeLight = () => {
   return (
@@ -16,9 +17,9 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link>
+                {/* <Link className="navbar-brand" to="/">
+                  <img src={logo} alt="brand" />
+                </Link> */}
               </div>
               {/* END LOGO */}
 

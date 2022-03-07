@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "./Social";
+import photo from '../assets/3.jpg'
 
 const Home = () => {
   return (
@@ -10,17 +11,16 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/1.jpg)",
+                backgroundImage: `url(${photo})`,
               }}
             ></div>
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Adriano Smith</h3>
+            <h3 className="name">Vladimir Radovanovic</h3>
             <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+            Creative problem solver happy to tackle any challenge.
             </p>
             {/* END JOB */}
             <Social />

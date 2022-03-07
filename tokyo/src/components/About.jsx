@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
+import { Link } from "react-router-dom";
+
+
 
 Modal.setAppElement("#root");
 
@@ -22,18 +25,17 @@ const About = () => {
         </div> */}
         {/* END ABOUT IMAGE */}
         <div className="description">
-          <h3 className="name">Adriano Smith &amp; Photographer</h3>
+          <h3 className="name">Vladimir Radovanovic &amp; Software Engineer</h3>
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+              Hello, I am a software engineer based in Raleigh, NC. I enjoy nothing more than tackling a problem that seems insurmountable.
               </p>
               <div className="tokyo_tm_button">
-                <button onClick={toggleModal} className="ib-button">
+                {/* <button onClick={toggleModal} className="ib-button">
                   Read More
-                </button>
+                </button> */}
+                <Link className="ib-button" to={{ pathname: "https://drive.google.com/file/d/1bi_Rrb70OzcZ4AKqVcKy3BoNK5TcjPu0/view" }} target="_blank">Resume</Link>
               </div>
               {/* END TOKYO BUTTON */}
             </div>
@@ -42,41 +44,31 @@ const About = () => {
               <ul>
                 <li>
                   <p>
-                    <span>Birthday:</span>01.07.1990
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Age:</span>31
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Address:</span>Ave 11, New York, USA
+                    <span>Location:</span><br/>Raleigh, NC
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Email:</span>
-                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+                    <a href="mailto:vladimirradovanovic1990@gmail.com">vladimirradovanovic1990@gmail.com</a>
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Phone:</span>
-                    <a href="tel:+770221770505">+77 022 177 05 05</a>
+                    <a href="tel:+13052152965"><br/>(305)215-2965</a>
                   </p>
                 </li>
-                <li>
+                {/* <li>
                   <p>
                     <span>Study:</span>Univercity of Texas
                   </p>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <p>
                     <span>Freelance:</span>Available
                   </p>
-                </li>
+                </li> */}
               </ul>
               {/* END UL */}
             </div>

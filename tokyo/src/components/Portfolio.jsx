@@ -39,15 +39,15 @@ const Portfolio = () => {
           <div className="portfolio_filter">
             <Tabs>
               <TabList>
-                <Tab>All</Tab>
+                {/* <Tab>All</Tab> */}
                 {/* All */}
-                <Tab>Vimeo</Tab>
+                {/* <Tab>Vimeo</Tab> */}
                 {/* For Vimeo */}
-                <Tab>Youtube</Tab>
+                {/* <Tab>Youtube</Tab> */}
                 {/* For Youtube */}
-                <Tab>Photography</Tab>
+                {/* <Tab>Photography</Tab> */}
                 {/* For Images */}
-                <Tab>Details</Tab>
+                {/* <Tab>Details</Tab> */}
                 {/* For Popup Details */}
               </TabList>
               {/* END TABLIST */}
@@ -55,7 +55,7 @@ const Portfolio = () => {
               <div className="list_wrapper">
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
+                    {/* <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
@@ -69,9 +69,9 @@ const Portfolio = () => {
                           <span>Vimeo</span>
                         </div>
                       </div>
-                    </li>
+                    </li> */}
                     {/* END VIMEO */}
-                    <li
+                    {/* <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
                       data-aos-delay="100"
@@ -89,10 +89,10 @@ const Portfolio = () => {
                           <span>Youtube</span>
                         </div>
                       </div>
-                    </li>
+                    </li> */}
                     {/* END YOUTUBE */}
-                    <SRLWrapper>
-                      <li
+                    {/* <SRLWrapper> */}
+                      {/* <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
                         data-aos-delay="200"
@@ -111,9 +111,9 @@ const Portfolio = () => {
                             <span>Photo shoot</span>
                           </div>
                         </div>
-                      </li>
+                      </li> */}
                       {/* END SHOT */}
-                      <li
+                      {/* <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
                         data-aos-delay="300"
@@ -132,9 +132,9 @@ const Portfolio = () => {
                             <span>Photo shoot</span>
                           </div>
                         </div>
-                      </li>
+                      </li> */}
                       {/* END SHOT */}
-                    </SRLWrapper>
+                    {/* </SRLWrapper> */}
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
@@ -149,8 +149,8 @@ const Portfolio = () => {
                           />
                         </div>
                         <div className="mobile_title">
-                          <h3>Selena Gomez</h3>
-                          <span> Details</span>
+                          <h3>Groove</h3>
+                          {/* <span> Details</span> */}
                         </div>
                       </div>
                     </li>
@@ -169,8 +169,8 @@ const Portfolio = () => {
                           />
                         </div>
                         <div className="mobile_title">
-                          <h3>Ave Simone</h3>
-                          <span> Details</span>
+                          <h3>Tale Of Task</h3>
+                          {/* <span> Details</span> */}
                         </div>
                       </div>
                     </li>

@@ -6,6 +6,7 @@ import About from "../../components/AboutRtl";
 import Portfolio from "../../components/PortfolioRtl";
 import News from "../../components/NewsRtl";
 import Contact from "../../components/ContactRtl";
+// import logo from '../../assets/logo.svg'
 
 const HomeDark = () => {
   document.body.classList.add("dark");
@@ -17,9 +18,9 @@ const HomeDark = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
+                {/* <Link className="navbar-brand" to="/">
                   <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link>
+                </Link> */}
               </div>
               {/* END LOGO */}
 
