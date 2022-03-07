@@ -5,6 +5,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   // for popup video
@@ -30,7 +31,7 @@ const Portfolio = () => {
             <div className="title_flex">
               <div className="left">
                 <span>Portfolio</span>
-                <h3>Minimal Portfolio</h3>
+                <h3>My Recent Work</h3>
               </div>
             </div>
           </div>
@@ -143,7 +144,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src="assets/img/portfolio/9.jpg"
                             alt="Details"
                             onClick={toggleModalThree}
                           />
@@ -279,13 +280,13 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src="assets/img/portfolio/9.jpg"
                             alt="Details"
                             onClick={toggleModalThree}
                           />
                         </div>
                         <div className="mobile_title">
-                          <h3>Selena Gomez</h3>
+                          <h3>Groove</h3>
                           <span> Details</span>
                         </div>
                       </div>
@@ -356,45 +357,42 @@ const Portfolio = () => {
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
-              <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
-                <div
+              {/* <div className="image"> */}
+                {/* <img src="assets/img/thumbs/4-3.jpg" alt="tumb" /> */}
+                {/* <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/9.jpg)",
                   }}
-                ></div>
-              </div>
+                ></div> */}
+              {/* </div> */}
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Selena Gomez</h3>
+                <h3>Groove</h3>
                 <span>Details</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                  Groove is a customer-to-customer e-commerce platform for buying and selling vinyl records.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
+                    {/* Mockups are useful both for the creative phase of the
                     project - for instance when you're trying to figure out your
                     user flows or the proper visual hierarchy - and the
                     production phase when they will represent the target
                     product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    development process allows you to quickly and easily ideate. */}
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first"><Link to={{ pathname: "https://groove-project.herokuapp.com/" }} target="_blank">Live</Link> | <Link  to={{ pathname: "https://github.com/VladimirRadovanovic" }} target="_blank">GitHub</Link></span>
+                      {/* <span>Alvaro Morata</span> */}
                     </li>
-                    <li>
+                    {/* <li>
                       <span className="first">Category</span>
                       <span>Details</span>
                     </li>
@@ -404,9 +402,9 @@ const Portfolio = () => {
                     </li>
                     <li>
                       <span className="first">Share</span>
-                      <Social />
+                      <Social /> */}
                       {/* END SOCIAL SHARE */}
-                    </li>
+                    {/* </li> */}
                   </ul>
                 </div>
               </div>
@@ -482,7 +480,7 @@ const Portfolio = () => {
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
-              <div className="image">
+              {/* <div className="image">
                 <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
                 <div
                   className="main"
@@ -490,37 +488,34 @@ const Portfolio = () => {
                     backgroundImage: "url(assets/img/portfolio/7.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Ave Simone</h3>
+                <h3>TALE Of TASK</h3>
                 <span>Details</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                  Tale of Task is a gamified to-do list app where users level up by completing their tasks.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
+                    {/* Mockups are useful both for the creative phase of the
                     project - for instance when you're trying to figure out your
                     user flows or the proper visual hierarchy - and the
                     production phase when they will represent the target
                     product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    development process allows you to quickly and easily ideate. */}
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first"><Link to={{ pathname: "https://tale-of-task.herokuapp.com/users/login" }} target="_blank">Live</Link> | <Link  to={{ pathname: "https://github.com/VladimirRadovanovic" }} target="_blank">GitHub</Link></span>
+                      {/* <span>Alvaro Morata</span> */}
                     </li>
-                    <li>
+                    {/* <li>
                       <span className="first">Category</span>
                       <span>Details</span>
                     </li>
@@ -528,11 +523,11 @@ const Portfolio = () => {
                       <span className="first">Date</span>
                       <span>March 07, 2021</span>
                     </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
+                    <li> */}
+                      {/* <span className="first">Share</span>
+                      <Social /> */}
                       {/* END SOCIAL SHARE */}
-                    </li>
+                    {/* </li> */}
                   </ul>
                 </div>
               </div>

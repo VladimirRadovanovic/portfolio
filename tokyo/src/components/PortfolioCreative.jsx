@@ -193,7 +193,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Selena Gomez</h5>
+                              <h5>Groove</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -391,7 +391,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Selena Gomez</h5>
+                              <h5>Groove</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -484,7 +484,7 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Selena Gomez</h3>
+                <h3>Groove</h3>
                 <span>Details</span>
               </div>
               {/* END portfolio_main_title */}

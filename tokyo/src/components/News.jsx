@@ -29,15 +29,15 @@ const News = () => {
         <div className="tokyo_tm_title">
           <div className="title_flex">
             <div className="left">
-              <span>News</span>
-              <h3>Latest News</h3>
+              <span>Skills</span>
+              <h3>Languages and Tools</h3>
             </div>
           </div>
         </div>
         {/* END TITLE */}
 
         <ul>
-          <li data-aos="fade-right" data-aos-duration="1200">
+          {/* <li data-aos="fade-right" data-aos-duration="1200">
             <div className="list_inner">
               <div className="image" onClick={toggleModalOne}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
@@ -47,31 +47,31 @@ const News = () => {
                     backgroundImage: "url(assets/img/news/1.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
-              <div className="details">
+              {/* <div className="details">
                 <div className="extra">
                   <p className="date">
                     By <a href="#">Alex Watson</a>
                     <span>05 April 2021</span>
                   </p>
-                </div>
+                </div> */}
                 {/* END EXTRA */}
 
-                <h3 className="title" onClick={toggleModalOne}>
+                {/* <h3 className="title" onClick={toggleModalOne}>
                   Format releases a new tool that enables direct video hosting
                 </h3>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalOne}>
                     <span>Read More</span>
                   </a>
-                </div>
+                </div> */}
                 {/* END READ MORE BUTTON */}
-              </div>
+              {/* </div> */}
               {/* END DETAILS */}
 
               {/* START MODAL */}
-              <Modal
+              {/* <Modal
                 isOpen={isOpen}
                 onRequestClose={toggleModalOne}
                 contentLabel="My dialog"
@@ -82,9 +82,9 @@ const News = () => {
                 <div className="tokyo_tm_modalbox_news">
                   <button className="close-modal" onClick={toggleModalOne}>
                     <img src="assets/img/svg/cancel.svg" alt="close icon" />
-                  </button>
+                  </button> */}
                   {/* END CLOSE ICON */}
-                  <div className="box_inner">
+                  {/* <div className="box_inner">
                     <div className="description_wrap scrollable">
                       <div className="image">
                         <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
@@ -94,9 +94,9 @@ const News = () => {
                             backgroundImage: "url(assets/img/news/1.jpg)",
                           }}
                         ></div>
-                      </div>
+                      </div> */}
                       {/* END IMAGE */}
-                      <div className="details">
+                      {/* <div className="details">
                         <div className="extra">
                           <p className="date">
                             By <a href="#">Alex Watson</a>
@@ -107,9 +107,9 @@ const News = () => {
                           Format releases a new tool that enables direct video
                           hosting
                         </h3>
-                      </div>
+                      </div> */}
                       {/* END DETAILS */}
-                      <div className="main_content ">
+                      {/* <div className="main_content ">
                         <div className="descriptions">
                           <p className="bigger">
                             Just because we can't get out and about like we
@@ -152,9 +152,9 @@ const News = () => {
                               away from home consistently inspires us to new
                               artistic heights.
                             </p>
-                          </div>
+                          </div> */}
                           {/* END QUOTEBOX */}
-                          <p>
+                          {/* <p>
                             Pretend everything is new and that you haven’t seen
                             it before, and then you will be free to notice the
                             leading lines, the places where one edge meets
@@ -170,27 +170,27 @@ const News = () => {
                             move to the left a bit. You may never feel the need
                             to leave the house again.
                           </p>
-                        </div>
+                        </div> */}
                         {/* END DESCRIPTION */}
-                        <div className="news_share">
+                        {/* <div className="news_share">
                           <span>Share:</span>
-                          <Social />
+                          <Social /> */}
                           {/* END SOCIAL SHARE */}
-                        </div>
+                        {/* </div> */}
                         {/* END NEWS SHARE */}
-                      </div>
+                      {/* </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* END BOX INNER */}
-                </div>
+                {/* </div> */}
                 {/* END MODALBOX NEWS */}
-              </Modal>
+              {/* </Modal> */}
               {/* END MODAL */}
-            </div>
-          </li>
+            {/* </div>
+          </li> */}
           {/* END SINGLE BLOG */}
 
-          <li
+          {/* <li
             data-aos="fade-right"
             data-aos-duration="1200"
             data-aos-delay="200"
@@ -204,30 +204,30 @@ const News = () => {
                     backgroundImage: "url(assets/img/news/2.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
 
-              <div className="details">
+              {/* <div className="details">
                 <div className="extra">
                   <p className="date">
                     By <a href="#">Brook Kennedy</a>
                     <span>22 March 2021</span>
                   </p>
-                </div>
+                </div> */}
                 {/* END EXTRA */}
 
-                <h3 className="title" onClick={toggleModalTwo}>
+                {/* <h3 className="title" onClick={toggleModalTwo}>
                   Sony announced two new full frame cameras with zero fanfare
                 </h3>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalTwo}>
                     <span>Read More</span>
                   </a>
-                </div>
+                </div> */}
                 {/* END READ MORE BUTTON */}
-              </div>
+              {/* </div> */}
 
-              <Modal
+              {/* <Modal
                 isOpen={isOpen2}
                 onRequestClose={toggleModalTwo}
                 contentLabel="My dialog"
@@ -238,9 +238,9 @@ const News = () => {
                 <div className="tokyo_tm_modalbox_news">
                   <button className="close-modal" onClick={toggleModalTwo}>
                     <img src="assets/img/svg/cancel.svg" alt="close icon" />
-                  </button>
+                  </button> */}
                   {/* END CLOSE MODAL */}
-                  <div className="box_inner">
+                  {/* <div className="box_inner">
                     <div className="description_wrap scrollable">
                       <div className="image">
                         <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
@@ -250,9 +250,9 @@ const News = () => {
                             backgroundImage: "url(assets/img/news/2.jpg)",
                           }}
                         ></div>
-                      </div>
+                      </div> */}
                       {/* END IMAGE */}
-                      <div className="details">
+                      {/* <div className="details">
                         <div className="extra">
                           <p className="date">
                             By <a href="#">Brook Kennedy</a>
@@ -263,9 +263,9 @@ const News = () => {
                           Sony announced two new full frame cameras with zero
                           fanfare
                         </h3>
-                      </div>
+                      </div> */}
                       {/* END DETAILS */}
-                      <div className="main_content ">
+                      {/* <div className="main_content ">
                         <div className="descriptions">
                           <p className="bigger">
                             Just because we can't get out and about like we
@@ -308,9 +308,9 @@ const News = () => {
                               away from home consistently inspires us to new
                               artistic heights.
                             </p>
-                          </div>
+                          </div> */}
                           {/* END QUOTEBOX */}
-                          <p>
+                          {/* <p>
                             Pretend everything is new and that you haven’t seen
                             it before, and then you will be free to notice the
                             leading lines, the places where one edge meets
@@ -329,23 +329,23 @@ const News = () => {
                         </div>
                         <div className="news_share">
                           <span>Share:</span>
-                          <Social />
+                          <Social /> */}
                           {/* END SOCIAL */}
-                        </div>
+                        {/* </div> */}
                         {/* END NEWS SHARE */}
-                      </div>
+                      {/* </div> */}
                       {/* END MAIN CONTENT */}
-                    </div>
+                    {/* </div>
                   </div>
                 </div>
-              </Modal>
+              </Modal> */}
               {/* END MODAL */}
-            </div>
+            {/* </div> */}
             {/* END LIST INNER */}
-          </li>
+          {/* </li> */}
           {/* END SINGLE BLOG */}
 
-          <li
+          {/* <li
             data-aos="fade-right"
             data-aos-duration="1200"
             data-aos-delay="300"
@@ -359,10 +359,10 @@ const News = () => {
                     backgroundImage: "url(assets/img/news/3.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
 
-              <div className="details">
+              {/* <div className="details">
                 <div className="extra">
                   <p className="date">
                     By <a href="#">Paola Atkins</a>
@@ -378,11 +378,11 @@ const News = () => {
                     <span>Read More</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
               {/* END DETAILS */}
 
               {/* START MODAL */}
-              <Modal
+              {/* <Modal
                 isOpen={isOpen3}
                 onRequestClose={toggleModalThree}
                 contentLabel="My dialog"
@@ -406,8 +406,8 @@ const News = () => {
                         ></div>
                       </div>
                       <div className="details">
-                        <div className="extra">
-                          <p className="date">
+                        <div className="extra"> */}
+                          {/* <p className="date">
                             By <a href="#">Paola Atkins</a>
                             <span>15 Feb 2021</span>
                           </p>
@@ -429,8 +429,8 @@ const News = () => {
                           <p>
                             Most photographers love to shoot the unusual, and
                             you don’t get much more unusual than These
-                            Unprecedented Times. Right now everything counts as
-                            out of the ordinary. There are a number of
+                            Unprecedented Times. Right now everything counts as */}
+                            {/* out of the ordinary. There are a number of
                             remarkable things about these lockdown days that are
                             worth photographing now so we can remember them when
                             it is all over.
@@ -459,9 +459,9 @@ const News = () => {
                               away from home consistently inspires us to new
                               artistic heights.
                             </p>
-                          </div>
+                          </div> */}
                           {/* END QUOTEBOX */}
-                          <p>
+                          {/* <p>
                             Pretend everything is new and that you haven’t seen
                             it before, and then you will be free to notice the
                             leading lines, the places where one edge meets
@@ -480,21 +480,21 @@ const News = () => {
                         </div>
                         <div className="news_share">
                           <span>Share:</span>
-                          <Social />
+                          <Social /> */}
                           {/* END SCCIAL SHARE */}
-                        </div>
-                      </div>
+                        {/* </div> */}
+                      {/* </div> */}
                       {/* END MAIN CONTENT */}
-                    </div>
+                    {/* </div>
                   </div>
                 </div>
               </Modal>
-            </div>
+            </div> */}
             {/* END LIST INNER */}
-          </li>
+          {/* </li> */}
           {/* END SINGLE BLOG */}
 
-          <li
+          {/* <li
             data-aos="fade-right"
             data-aos-duration="1200"
             data-aos-delay="400"
@@ -508,19 +508,19 @@ const News = () => {
                     backgroundImage: "url(assets/img/news/4.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
 
-              <div className="details">
+              {/* <div className="details">
                 <div className="extra">
                   <p className="date">
                     By <a href="#">Kevin Stone</a>
                     <span>22 Jan 2021</span>
                   </p>
-                </div>
+                </div> */}
                 {/* END EXTRA */}
 
-                <h3 className="title" onClick={toggleModalFour}>
+                {/* <h3 className="title" onClick={toggleModalFour}>
                   Stay creative in lockdown with these fun photo projects
                 </h3>
                 <div className="tokyo_tm_read_more">
@@ -528,22 +528,22 @@ const News = () => {
                     <span>Read More</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
               {/* END DETAILS */}
-              <Modal
+              {/* <Modal
                 isOpen={isOpen4}
                 onRequestClose={toggleModalFour}
                 contentLabel="My dialog"
                 className="mymodal"
                 overlayClassName="myoverlay"
                 closeTimeoutMS={500}
-              >
-                <div className="tokyo_tm_modalbox_news">
+              > */}
+                {/* <div className="tokyo_tm_modalbox_news">
                   <button className="close-modal" onClick={toggleModalFour}>
                     <img src="assets/img/svg/cancel.svg" alt="close icon" />
-                  </button>
+                  </button> */}
                   {/* END CLOSE ICON */}
-                  <div className="box_inner">
+                  {/* <div className="box_inner">
                     <div className="description_wrap scrollable">
                       <div className="image">
                         <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
@@ -553,10 +553,10 @@ const News = () => {
                             backgroundImage: "url(assets/img/news/4.jpg)",
                           }}
                         ></div>
-                      </div>
+                      </div> */}
                       {/* END IMAGE */}
 
-                      <div className="details">
+                      {/* <div className="details">
                         <div className="extra">
                           <p className="date">
                             By <a href="#toggleButton">Kevin Stone</a>
@@ -567,10 +567,10 @@ const News = () => {
                           Stay creative in lockdown with these fun photo
                           projects
                         </h3>
-                      </div>
+                      </div> */}
                       {/* END DETAILS */}
 
-                      <div className="main_content ">
+                      {/* <div className="main_content ">
                         <div className="descriptions">
                           <p className="bigger">
                             Just because we can't get out and about like we
@@ -601,8 +601,8 @@ const News = () => {
                             <div className="icon">
                               <img
                                 className="svg"
-                                src="assets/img/svg/quote.svg"
-                                alt="quote"
+                                src="assets/img/svg/quote.svg" */}
+                                {/* alt="quote"
                               />
                             </div>
                             <p>
@@ -613,9 +613,9 @@ const News = () => {
                               away from home consistently inspires us to new
                               artistic heights.
                             </p>
-                          </div>
+                          </div> */}
                           {/* END QUOTEBOX */}
-                          <p>
+                          {/* <p>
                             Pretend everything is new and that you haven’t seen
                             it before, and then you will be free to notice the
                             leading lines, the places where one edge meets
@@ -634,19 +634,19 @@ const News = () => {
                         </div>
                         <div className="news_share">
                           <span>Share:</span>
-                          <Social />
+                          <Social /> */}
                           {/* END SOCIAL SHARE */}
-                        </div>
-                      </div>
+                        {/* </div> */}
+                      {/* </div> */}
                       {/* END MAIN CONTENT */}
-                    </div>
+                    {/* </div>
                   </div>
                 </div>
-              </Modal>
+              </Modal> */}
               {/* END MODAL */}
-            </div>
+            {/* </div> */}
             {/* END LIST INNER */}
-          </li>
+          {/* </li> */}
         </ul>
       </div>
     </>

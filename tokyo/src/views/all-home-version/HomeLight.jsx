@@ -55,7 +55,7 @@ const HomeLight = () => {
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
-                    <span className="menu_content">News</span>
+                    <span className="menu_content">Skills</span>
                   </Tab>
                   <Tab>
                     <img

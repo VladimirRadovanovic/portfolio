@@ -143,7 +143,7 @@ const PortfolioRtl = () => {
                           />
                         </div>
                         <div className="mobile_title">
-                          <h3>Selena Gomez</h3>
+                          <h3>Groove</h3>
                           <span> Details</span>
                         </div>
                       </div>
@@ -151,7 +151,7 @@ const PortfolioRtl = () => {
                     {/* END DETAILS */}
                     <li
                       data-aos="fade-right"
-                      data-aos="fade-right"
+                      // data-aos="fade-right"
                       data-aos-duration="1200"
                       data-aos-delay="200"
                     >
@@ -280,7 +280,7 @@ const PortfolioRtl = () => {
                           />
                         </div>
                         <div className="mobile_title">
-                          <h3>Selena Gomez</h3>
+                          <h3>Groove</h3>
                           <span> Details</span>
                         </div>
                       </div>
